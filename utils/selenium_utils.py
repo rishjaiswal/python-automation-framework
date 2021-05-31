@@ -5,7 +5,7 @@ from utils.driver_utils import driver,DriverUtils
 from configs import config
 
 log = get_logger()
-driver= DriverUtils.initialize_driver()
+driver = DriverUtils.initialize_driver()
 
 class SeleniumUtils:
 
