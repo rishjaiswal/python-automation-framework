@@ -8,7 +8,6 @@ driver = None
 
 
 class DriverUtils:
-
     def initialize_driver():
         global driver
         if driver == None:
@@ -25,7 +24,6 @@ class DriverUtils:
                     driver = webdriver.Chrome(executable_path=os.path.join(config.DRIVER_PATH, "geckodriver.exe"))
                 else:
                     driver = webdriver.Chrome(executable_path=os.path.join(config.DRIVER_PATH, "geckodriver"))
-
             log.info("Initializing the Base URL " + config.BASE_URL)
             driver.maximize_window()
             driver.implicitly_wait(config.IMPLICITWAIT_TIME)

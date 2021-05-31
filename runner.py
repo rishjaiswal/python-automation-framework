@@ -6,12 +6,10 @@ from configs import config
 import os, subprocess, sys
 
 log = get_logger()
-
 if __name__ == '__main__':
     log.info("Workflow Started")
     html = HTMLReporter.create_html()
     workflow_type = None
-
     try:
         # Set-up
         log.info("Started setting up packages through requirements.txt")
@@ -34,11 +32,9 @@ if __name__ == '__main__':
 
         # Clean-up
         DriverUtils.quit_driver()
-
     except Exception as e:
         log.fatal("Exception occured", exc_info=True)
         log.fatal(e)
-
     finally:
         os.chdir(os.path.join(config.PROJECT_PATH, config.RESULTS_PATH))
         HTMLReporter.complete_html(html)

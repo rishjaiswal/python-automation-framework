@@ -1,15 +1,14 @@
 from utils.logger_utils import get_logger
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from utils.driver_utils import driver,DriverUtils
+from utils.driver_utils import driver, DriverUtils
 from configs import config
 
 log = get_logger()
 driver = DriverUtils.initialize_driver()
 
+
 class SeleniumUtils:
-
-
     def getElementBy(type, path):
         if type == "class":
             return driver.find_element_by_class_name(path)

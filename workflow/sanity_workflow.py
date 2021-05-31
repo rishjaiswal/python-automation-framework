@@ -3,7 +3,6 @@ from utils.selenium_utils import SeleniumUtils
 from configs import elements
 from utils.driver_utils import driver
 from utils.reporter_utils import HTMLReporter
-import time
 
 log = get_logger()
 
