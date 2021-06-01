@@ -1,35 +1,35 @@
-[INFO] 30-05-21 18:25:41 Inside initialize_driver() method
-[INFO] 30-05-21 18:25:45 Initializing the Base URL https://www.apple.com
-[INFO] 30-05-21 18:25:49 Finish initialize_driver() method
-[INFO] 30-05-21 18:25:49 Workflow Started
-[INFO] 30-05-21 18:25:49 Inside create_html() method
-[INFO] 30-05-21 18:25:49 Inside create_css() method
-[INFO] 30-05-21 18:25:49 Finish create_css() method
-[INFO] 30-05-21 18:25:49 Complete create_html() method
-[INFO] 30-05-21 18:25:49 Started setting up packages through requirements.txt
-[INFO] 30-05-21 18:25:50 Completed setting up packages through requirements.txt
-[INFO] 30-05-21 18:25:50 Inside create_test_folder() method
-[INFO] 30-05-21 18:25:50 Complete create_test_folder() method
-[INFO] 30-05-21 18:25:50 Workflow Execution In Progress
-[INFO] 30-05-21 18:25:50 Sanity Workflow Execution
-[INFO] 30-05-21 18:25:50 Inside SanityWorkflow
-[INFO] 30-05-21 18:25:51 Mac Home Page Title is : Mac - Apple
-[INFO] 30-05-21 18:25:51 Inside create_test_data() method
-[INFO] 30-05-21 18:25:51 Complete create_test_data() method
-[INFO] 30-05-21 18:25:52 Apple Home Page Title is : Apple
-[INFO] 30-05-21 18:25:52 Inside create_test_data() method
-[INFO] 30-05-21 18:25:52 Complete create_test_data() method
-[INFO] 30-05-21 18:25:58 iPad Home Page Title is : iPad - Apple
-[INFO] 30-05-21 18:25:58 Inside create_test_data() method
-[INFO] 30-05-21 18:25:58 Complete create_test_data() method
-[INFO] 30-05-21 18:25:59 iPhone Home Page Title is : iPhone - Apple
-[INFO] 30-05-21 18:25:59 Inside create_test_data() method
-[INFO] 30-05-21 18:25:59 Complete create_test_data() method
-[INFO] 30-05-21 18:26:00 iPhone Learn More Page Title : Apple Card - Monthly Installments - Apple
-[INFO] 30-05-21 18:26:00 Inside create_test_data() method
-[INFO] 30-05-21 18:26:00 Complete create_test_data() method
-[INFO] 30-05-21 18:26:00 Inside quit_driver() method
-[INFO] 30-05-21 18:26:01 Finish quit_driver() method
-[INFO] 30-05-21 18:26:01 Inside complete_html() method
-[INFO] 30-05-21 18:26:01 Complete complete_html() method
-[INFO] 30-05-21 18:26:01 Workflow Completed
+[INFO] 01-06-21 15:02:38 Inside initialize_driver() method
+[INFO] 01-06-21 15:02:42 Initializing the Base URL https://www.apple.com
+[INFO] 01-06-21 15:02:59 Finish initialize_driver() method
+[INFO] 01-06-21 15:02:59 Workflow Started
+[INFO] 01-06-21 15:02:59 Inside create_html() method
+[INFO] 01-06-21 15:02:59 Inside create_css() method
+[INFO] 01-06-21 15:02:59 Finish create_css() method
+[INFO] 01-06-21 15:02:59 Complete create_html() method
+[INFO] 01-06-21 15:02:59 Started setting up packages through requirements.txt
+[INFO] 01-06-21 15:03:01 Completed setting up packages through requirements.txt
+[INFO] 01-06-21 15:03:01 Inside create_test_folder() method
+[INFO] 01-06-21 15:03:01 Complete create_test_folder() method
+[INFO] 01-06-21 15:03:01 Workflow Execution In Progress
+[INFO] 01-06-21 15:03:01 Sanity Workflow Execution
+[INFO] 01-06-21 15:03:01 Inside SanityWorkflow
+[INFO] 01-06-21 15:03:04 Mac Home Page Title is : Mac - Apple
+[INFO] 01-06-21 15:03:04 Inside create_test_data() method
+[INFO] 01-06-21 15:03:04 Complete create_test_data() method
+[INFO] 01-06-21 15:03:06 Apple Home Page Title is : Apple
+[INFO] 01-06-21 15:03:06 Inside create_test_data() method
+[INFO] 01-06-21 15:03:06 Complete create_test_data() method
+[INFO] 01-06-21 15:03:15 iPad Home Page Title is : iPad - Apple
+[INFO] 01-06-21 15:03:15 Inside create_test_data() method
+[INFO] 01-06-21 15:03:15 Complete create_test_data() method
+[INFO] 01-06-21 15:03:17 iPhone Home Page Title is : iPhone - Apple
+[INFO] 01-06-21 15:03:17 Inside create_test_data() method
+[INFO] 01-06-21 15:03:17 Complete create_test_data() method
+[INFO] 01-06-21 15:03:19 iPhone Learn More Page Title : Apple Card - Monthly Installments - Apple
+[INFO] 01-06-21 15:03:19 Inside create_test_data() method
+[INFO] 01-06-21 15:03:19 Complete create_test_data() method
+[INFO] 01-06-21 15:03:20 Inside quit_driver() method
+[INFO] 01-06-21 15:03:20 Finish quit_driver() method
+[INFO] 01-06-21 15:03:20 Inside complete_html() method
+[INFO] 01-06-21 15:03:20 Complete complete_html() method
+[INFO] 01-06-21 15:03:20 Workflow Completed
