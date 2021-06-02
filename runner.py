@@ -29,13 +29,13 @@ if __name__ == '__main__':
             log.info("Performance Workflow Execution")
         else:
             log.trace("No Workflow Matching with Workflowtype for Execution")
-
-        # Clean-up
-        DriverUtils.quit_driver()
     except Exception as e:
         log.fatal("Exception occured", exc_info=True)
         log.fatal(e)
     finally:
+        # Clean-up
+        DriverUtils.quit_driver()
+        # Compiling HTML Result Reports
         os.chdir(os.path.join(config.PROJECT_PATH, config.RESULTS_PATH))
         HTMLReporter.complete_html(html)
         log.info("Workflow Completed")

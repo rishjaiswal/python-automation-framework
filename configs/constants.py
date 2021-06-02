@@ -11,7 +11,8 @@ class SanityTest:
 class Resources:
     RESOURCES_LOCATION = "resources"
     DRIVER_LOCATION = "driver"
-    TESTDATA_LOCATION = "testdata"
+    TESTDATA_PATH = "testdata"
+    TESTDATA_LOCATION = "testdata.xlsx"
     SCREENSHOT_LOCATION = "screenshots"
     PIP_LOCATION = "requirements.txt"
 

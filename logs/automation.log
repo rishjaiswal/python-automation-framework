@@ -1,38 +1,41 @@
-[INFO] 01-06-21 22:02:11 Inside initialize_driver() method
-[INFO] 01-06-21 22:02:14 Initializing the Base URL https://www.apple.com
-[INFO] 01-06-21 22:02:25 Finish initialize_driver() method
-[INFO] 01-06-21 22:02:25 Implementation of ScreenCaptureUtils
-[INFO] 01-06-21 22:02:25 Workflow Started
-[INFO] 01-06-21 22:02:25 Inside create_html() method
-[INFO] 01-06-21 22:02:25 Inside create_css() method
-[INFO] 01-06-21 22:02:25 Finish create_css() method
-[INFO] 01-06-21 22:02:25 Complete create_html() method
-[INFO] 01-06-21 22:02:25 Started setting up packages through requirements.txt
-[INFO] 01-06-21 22:02:26 Completed setting up packages through requirements.txt
-[INFO] 01-06-21 22:02:26 Inside create_test_folder() method
-[INFO] 01-06-21 22:02:26 Complete create_test_folder() method
-[INFO] 01-06-21 22:02:26 Workflow Execution In Progress
-[INFO] 01-06-21 22:02:26 Sanity Workflow Execution
-[INFO] 01-06-21 22:02:26 Inside SanityWorkflow
-[INFO] 01-06-21 22:02:34 Mac Home Page Title is : Mac - Apple
-[INFO] 01-06-21 22:02:34 Inside create_test_data() method
-[INFO] 01-06-21 22:02:34 Complete create_test_data() method
-[INFO] 01-06-21 22:02:42 Apple Home Page Title is : Apple
-[INFO] 01-06-21 22:02:42 Inside create_test_data() method
-[INFO] 01-06-21 22:02:42 Complete create_test_data() method
-[INFO] 01-06-21 22:02:48 iPad Home Page Title is : iPad - Apple
-[INFO] 01-06-21 22:02:48 Inside create_test_data() method
-[INFO] 01-06-21 22:02:48 Complete create_test_data() method
-[INFO] 01-06-21 22:03:00 iPhone Home Page Title is : iPhone - Apple
-[INFO] 01-06-21 22:03:00 Inside create_test_data() method
-[INFO] 01-06-21 22:03:00 Complete create_test_data() method
-[INFO] 01-06-21 22:03:17 iPhone Learn More Page Title : Apple Card - Monthly Installments - Apple
-[INFO] 01-06-21 22:03:17 Inside create_test_data() method
-[INFO] 01-06-21 22:03:17 Complete create_test_data() method
-[INFO] 01-06-21 22:03:17 Inside method take_screenshot() for capturing screenshots
-[INFO] 01-06-21 22:03:18 Finished method take_screenshot()
-[INFO] 01-06-21 22:03:18 Inside quit_driver() method
-[INFO] 01-06-21 22:03:18 Finish quit_driver() method
-[INFO] 01-06-21 22:03:18 Inside complete_html() method
-[INFO] 01-06-21 22:03:18 Complete complete_html() method
-[INFO] 01-06-21 22:03:18 Workflow Completed
+[INFO] 02-06-21 22:11:51 Inside initialize_driver() method
+[INFO] 02-06-21 22:11:56 Initializing the Base URL https://www.apple.com
+[INFO] 02-06-21 22:12:10 Finish initialize_driver() method
+[INFO] 02-06-21 22:12:10 Implementation of ExcelUtils
+[INFO] 02-06-21 22:12:10 Implementation of ScreenCaptureUtils
+[INFO] 02-06-21 22:12:10 Workflow Started
+[INFO] 02-06-21 22:12:10 Inside create_html() method
+[INFO] 02-06-21 22:12:10 Inside create_css() method
+[INFO] 02-06-21 22:12:10 Finish create_css() method
+[INFO] 02-06-21 22:12:10 Complete create_html() method
+[INFO] 02-06-21 22:12:10 Started setting up packages through requirements.txt
+[INFO] 02-06-21 22:12:13 Completed setting up packages through requirements.txt
+[INFO] 02-06-21 22:12:13 Inside create_test_folder() method
+[INFO] 02-06-21 22:12:13 Complete create_test_folder() method
+[INFO] 02-06-21 22:12:13 Workflow Execution In Progress
+[INFO] 02-06-21 22:12:13 Sanity Workflow Execution
+[INFO] 02-06-21 22:12:13 Inside SanityWorkflow
+[INFO] 02-06-21 22:12:13 Inside read_from_excel()
+[INFO] 02-06-21 22:12:13 Finished read_from_excel()
+[INFO] 02-06-21 22:12:18 Mac Home Page Title is : Mac - Apple
+[INFO] 02-06-21 22:12:20 Apple Home Page Title is : Apple
+[INFO] 02-06-21 22:12:29 iPad Home Page Title is : iPad - Apple
+[INFO] 02-06-21 22:12:31 iPhone Home Page Title is : iPhone - Apple
+[INFO] 02-06-21 22:12:32 iPhone Learn More Page Title : Apple Card - Monthly Installments - Apple
+[INFO] 02-06-21 22:12:32 Inside method take_screenshot() for capturing screenshots
+[INFO] 02-06-21 22:12:32 Finished method take_screenshot()
+[INFO] 02-06-21 22:12:32 Inside create_test_data() method
+[INFO] 02-06-21 22:12:32 Complete create_test_data() method
+[INFO] 02-06-21 22:12:32 Inside create_test_data() method
+[INFO] 02-06-21 22:12:32 Complete create_test_data() method
+[INFO] 02-06-21 22:12:32 Inside create_test_data() method
+[INFO] 02-06-21 22:12:32 Complete create_test_data() method
+[INFO] 02-06-21 22:12:32 Inside create_test_data() method
+[INFO] 02-06-21 22:12:32 Complete create_test_data() method
+[INFO] 02-06-21 22:12:32 Inside create_test_data() method
+[INFO] 02-06-21 22:12:32 Complete create_test_data() method
+[INFO] 02-06-21 22:12:32 Inside quit_driver() method
+[INFO] 02-06-21 22:12:33 Finish quit_driver() method
+[INFO] 02-06-21 22:12:33 Inside complete_html() method
+[INFO] 02-06-21 22:12:33 Complete complete_html() method
+[INFO] 02-06-21 22:12:33 Workflow Completed
