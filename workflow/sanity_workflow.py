@@ -16,6 +16,8 @@ class SanityWorkflow:
 
         # To get the data from Excel
         excel_data = ExcelUtils.read_from_excel()
+
+        # Work-around to directly use excel_data[0][0],[1][0]...[4][0] as a Test Case Numbers
         testcase_numbers = []
         for data in excel_data:
             testcase_numbers.append(data[0])

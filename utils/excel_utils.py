@@ -13,6 +13,7 @@ class ExcelUtils:
         complete_test_data = []
         wb = openpyxl.load_workbook(config.TESTDATA_PATH)
         sheet = wb.active
+        # To get the data after headers of Excel as 1st row will be column names for data
         for row in range(2, sheet.max_row + 1):
             test_data = []
             for column in range(1, sheet.max_column):
